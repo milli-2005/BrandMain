@@ -2,6 +2,7 @@
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 993px;
 }
 .hero h1{
 font-weight: 800;
@@ -48,4 +49,78 @@ text-align: center;
 color: #fff;
 background-color: transparent;
 }
+svg{
+  margin-bottom: 20px;
+}
+.cards h2{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 34px;
+line-height: 133%;
+letter-spacing: 0em;
+color: #252b42;
+margin-bottom: 30px;
+}
+.cards p{
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 143%;
+letter-spacing: 0.01em;
+color: #737373;
+max-width: 213px;
+}
+.cards{
+  height: 300px; 
+  box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.07);
+background: #fff;
 
+}
+.card_in{
+  padding: 35px 40px;
+width: 328px;
+height: 201px;
+}
+
+.relative{
+  position: relative;
+}
+.child{
+  position: absolute;
+  top: 800px;
+  left: 200px;
+}
+.hero_cards{
+  display: flex;
+  gap: 220px;
+  flex-direction: row;
+}
+.third{
+  color: #fff;
+  background: #23a6f0;
+}
+.third h2, .third p{
+  color: white;
+}
+
+/* after */
+.cards_after{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 450px;
+}
+.card_item{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 220px;
+  align-items: center;
+  gap: 15px;
+}
+.card_item img{
+  width: 90px;
+}
+.card_item h3{
+  font-weight: 700;
+}
